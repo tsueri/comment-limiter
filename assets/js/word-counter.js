@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
                 border: "1px solid gray",
                 borderRadius: "5px"
             },
-            text: "Characters: 0" // Initial text displaying character count as 0
+            text: cl_vars.counterFormat.replace('%1$d', 0).replace('%2$d', maxChars)
         });
 
         // Create the progress bar container with a fixed height and background color
@@ -58,7 +58,7 @@ jQuery(document).ready(function($) {
         // Event listener for user input in the comment field
         commentField.on("input", function() {
             var charCount = commentField.val().length; // Calculate current character count
-            counter.text("Characters: " + charCount + " of " + maxChars); // Update counter text
+            counter.text(cl_vars.counterFormat.replace('%1$d', charCount).replace('%2$d', maxChars));
             
             // Calculate the progress percentage based on maxChars, capped at 100%
             var progressPercent = Math.min((charCount / maxChars) * 100, 100);
@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
                 // Create an error message for minimum character requirement
                 var errorMin = $("<div>", {
                     id: "error-msg1",
-                    text: "Minimum " + minChars + " characters required.", // Custom error text
+                    text: cl_vars.minRequired.replace('%d', minChars),
                     css: { 
                         padding: "5px",
                         backgroundColor: "#ffe6e6", // Light red background for visibility
@@ -119,7 +119,7 @@ jQuery(document).ready(function($) {
                 // Create an error message for maximum character limit
                 var errorMax = $("<div>", {
                     id: "error-msg2",
-                    text: "Maximum " + maxChars + " characters allowed.", // Custom error text
+                    text: cl_vars.maxAllowed.replace('%d', maxChars),
                     css: { 
                         padding: "5px",
                         backgroundColor: "#ffe6e6",

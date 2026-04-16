@@ -1,118 +1,118 @@
+# German translations for Comment Limiter.
 # Copyright (C) 2024 Anass Rahou
 # This file is distributed under the same license as the Comment Limiter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Comment Limiter 2.2.3\n"
+"Project-Id-Version: comment-limiter 2.2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-01 00:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: comment-limiter.php:65
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungen"
 
 #: includes/class-comment-limiter-settings.php:101
 #: includes/class-comment-limiter-settings.php:102
 #: includes/class-comment-limiter-settings.php:126
 msgid "Comment Limiter"
-msgstr ""
+msgstr "Comment Limiter"
 
 #: includes/class-comment-limiter-settings.php:133
 msgid "Save Comments Changes"
-msgstr ""
+msgstr "Kommentaränderungen speichern"
 
 #: includes/class-comment-limiter-settings.php:163
 msgid "Maximum Characters Number"
-msgstr ""
+msgstr "Maximale Zeichenanzahl"
 
 #: includes/class-comment-limiter-settings.php:175
 msgid "Maximum Message Error"
-msgstr ""
+msgstr "Fehlermeldung bei Überschreitung"
 
 #: includes/class-comment-limiter-settings.php:187
 msgid "Minimum Characters Number"
-msgstr ""
+msgstr "Minimale Zeichenanzahl"
 
 #: includes/class-comment-limiter-settings.php:199
 msgid "Minimum Message Error"
-msgstr ""
+msgstr "Fehlermeldung bei Unterschreitung"
 
 #: includes/class-comment-limiter-settings.php:211
 msgid "Apply Settings to Admins"
-msgstr ""
+msgstr "Einstellungen auf Administratoren anwenden"
 
 #: includes/class-comment-limiter-settings.php:235
 msgid "Invalid lengths. Please insert logical values."
-msgstr ""
+msgstr "Ungültige Längen. Bitte geben Sie logische Werte ein."
 
 #: includes/class-comment-limiter-settings.php:242
 msgid "Maximum message error is required."
-msgstr ""
+msgstr "Die Fehlermeldung bei Überschreitung ist erforderlich."
 
 #: includes/class-comment-limiter-settings.php:248
 msgid "Minimum message error is required."
-msgstr ""
+msgstr "Die Fehlermeldung bei Unterschreitung ist erforderlich."
 
 #: includes/class-comment-limiter-settings.php:255
 msgid "Comment Limiter settings saved correctly."
-msgstr ""
+msgstr "Comment Limiter Einstellungen wurden erfolgreich gespeichert."
 
 #: includes/class-comment-limiter-settings.php:289
 #: includes/class-comment-limiter-settings.php:298
 msgid "Comment Limiter Error"
-msgstr ""
+msgstr "Comment Limiter Fehler"
 
 #: includes/class-comment-limiter-settings.php:315
 #: includes/class-comment-limiter-settings.php:341
 msgid "Accepts only numbers"
-msgstr ""
+msgstr "Akzeptiert nur Zahlen"
 
 #: includes/class-comment-limiter-settings.php:328
 msgid "This is the error message that will be displayed to the user when the comment length is more than the maximum value indicated above."
-msgstr ""
+msgstr "Dies ist die Fehlermeldung, die dem Benutzer angezeigt wird, wenn die Kommentarlänge den oben angegebenen Höchstwert überschreitet."
 
 #: includes/class-comment-limiter-settings.php:354
 msgid "This is the error message that will be displayed to the user when the comment length is less than the minimum value indicated above."
-msgstr ""
+msgstr "Dies ist die Fehlermeldung, die dem Benutzer angezeigt wird, wenn die Kommentarlänge den oben angegebenen Mindestwert unterschreitet."
 
 #: includes/class-comment-limiter-settings.php:368
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: includes/class-comment-limiter-settings.php:369
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #: includes/class-comment-limiter-settings.php:374
 msgid "This will allows users with administrator capabilities to publish comments despite the configuration of Comment Limiter plugin."
-msgstr ""
+msgstr "Dies ermöglicht Benutzern mit Administratorrechten das Veröffentlichen von Kommentaren ungeachtet der Konfiguration des Comment Limiter Plugins."
 
 #: includes/class-comment-limiter-settings.php:397
 msgid "Your comment is too short. Minimum words: "
-msgstr ""
+msgstr "Ihr Kommentar ist zu kurz. Mindestanzahl Wörter: "
 
 #: includes/class-comment-limiter-settings.php:398
 msgid "Your comment is too long. Maximum words: "
-msgstr ""
+msgstr "Ihr Kommentar ist zu lang. Maximalanzahl Wörter: "
 
 #: includes/class-comment-limiter-settings.php:399
 msgid "Characters: %1$d of %2$d"
-msgstr ""
+msgstr "Zeichen: %1$d von %2$d"
 
 #: includes/class-comment-limiter-settings.php:401
 msgid "Minimum %d characters required."
-msgstr ""
+msgstr "Mindestens %d Zeichen erforderlich."
 
 #: includes/class-comment-limiter-settings.php:402
 msgid "Maximum %d characters allowed."
-msgstr ""
+msgstr "Maximal %d Zeichen erlaubt."

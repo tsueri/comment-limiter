@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 
 
 if( ! defined( 'CL_VERSION' ) ) {
-  define( 'CL_VERSION', '2.2.2' );
+  define( 'CL_VERSION', '2.2.3' );
 }
 
 if ( ! defined( 'CL_PLUGIN_PATH' ) ) {
@@ -74,7 +74,4 @@ function cl_filter_plugin_action_links( $plugin_actions, $plugin_file ) {
 add_filter( 'plugin_action_links', 'cl_filter_plugin_action_links', 10, 2 );
 
 
-function add_character_counter() {
-    echo '<div id="char-count" style="margin-top: 5px;">0</div>';
-}
-add_action( 'comment_form_after_fields', 'add_character_counter' );
+

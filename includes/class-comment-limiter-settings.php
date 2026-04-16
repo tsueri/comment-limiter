@@ -396,15 +396,14 @@ if ( ! class_exists( 'Comment_Limiter_Settings' ) ) {
                 'maxChars'           => isset($this->_comment_limiter_options['maximum_characters']) ? $this->_comment_limiter_options['maximum_characters'] : 0,
                 'minMessage'         => isset($this->_comment_limiter_options['minimum_message']) ? $this->_comment_limiter_options['minimum_message'] : __('Your comment is too short. Minimum words: ', 'comment-limiter') . $this->_comment_limiter_options['minimum_characters'],
                 'maxMessage'         => isset($this->_comment_limiter_options['maximum_message']) ? $this->_comment_limiter_options['maximum_message'] : __('Your comment is too long. Maximum words: ', 'comment-limiter') . $this->_comment_limiter_options['maximum_characters'],
+                'counterFormat'     => __('Characters: %1$d of %2$d', 'comment-limiter'),
+                'minRequired'       => __('Minimum %d characters required.', 'comment-limiter'),
+                'maxAllowed'        => __('Maximum %d characters allowed.', 'comment-limiter'),
             ));
         }
 
         public function add_comment_progress_bar() {
             ?>
-            <div id="comment-progress-container" style="margin-top: 10px;">
-                <div id="progress-bar" style="height: 5px; background-color: green; width: 0%; transition: width 0.3s ease;"></div>
-                <div id="char-counter" style="margin-top: 5px; font-size: 14px; color: black;">Characters: 0</div>
-            </div>
             <?php
         }
 
